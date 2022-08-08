@@ -4,7 +4,11 @@
 Command:
 git clone https://github.com/UsamaDaood/Social-Media-Posts.git
 
-# Run the following Commands to install the Node Modules
+## Run the following Commands to install the Node Modules
 
-1. yarn install
+###1. yarn install
+
+## App Install on the Android Device
+
+### react-native run-android
  
