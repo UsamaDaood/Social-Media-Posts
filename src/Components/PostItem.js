@@ -10,7 +10,6 @@ const color = require('../Utils/Colors.js');
 
 export default function PostsListItem({ item, index, callBackPostClick }) {
 
-
     return (
         <TouchableOpacity
             onPress={() => callBackPostClick(item, index)}
@@ -67,9 +66,7 @@ export default function PostsListItem({ item, index, callBackPostClick }) {
                     <View style={{ flexDirection: 'row', flex: 1, paddingVertical: 10, justifyContent: 'center', }}>
                         {/*Like Button*/}
                         <TouchableOpacity
-                            onPress={() => savedFavourite(index)}
                             style={styles.optionsItem}
-
                         >
                             <View style={styles.optionsItem}>
 
@@ -98,9 +95,6 @@ export default function PostsListItem({ item, index, callBackPostClick }) {
 
                         <TouchableOpacity
                             style={styles.optionsItem}
-                            onPress={() => navigation.navigate('ChatGifted', {
-                                postId: item.postId, userId: item.userId, name: 'manem', email: 'oo@gmail.com', avatar: demoUserPic
-                            })}
                         >
 
                             <View style={styles.optionsItem}>
@@ -112,13 +106,8 @@ export default function PostsListItem({ item, index, callBackPostClick }) {
                                 <Text style={{ alignSelf: 'center', height: 20, }}> Chat </Text>
                             </View>
                         </TouchableOpacity>
-
-
                     </View>
-
-
                 </View>
-
             </View >
         </TouchableOpacity>
     );
