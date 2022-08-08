@@ -1,14 +1,16 @@
 # Social-Media-Posts
 
-# Clone this Project
+## Step #1: Clone this Project
+
 Command:
 git clone https://github.com/UsamaDaood/Social-Media-Posts.git
 
-## Run the following Commands to install the Node Modules
+
+## Step #2: Run the following Commands to install the Node Modules
 
 yarn install
 
-## App Install on the Android Device
+## Step #3: App Install on the Android Device
 
 react-native run-android
 
@@ -20,7 +22,8 @@ If app is not run on the Android Device then "android" folder open in Android St
 ## App Install on IOS Device.
 
 just run the complete command in React Native main Root directry.
-cd ios && pod install && cd ../ && react-native run-ios
+
+## cd ios && pod install && cd ../ && react-native run-ios
 
  
  
